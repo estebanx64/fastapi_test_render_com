@@ -5,7 +5,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 
 WORKDIR '/usr/app'
 
-COPY . .
+COPY . /usr/app
 
 RUN apt-get update
 RUN pip install --upgrade pip
